@@ -59,3 +59,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "y-rb_actioncable", "~> 0.1.7"
+
+gem "redis", "~> 5.2"
+
+gem "y-rb", "~> 0.5.6"
