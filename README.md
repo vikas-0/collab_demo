@@ -1,24 +1,40 @@
-# README
+# Collaborative Editor Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple demo of a real-time collaborative editor using Y.js, Tiptap, and Rails Action Cable. The demo showcases how these three technologies can be integrated to create a seamless collaborative editing experience.
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+- **Real-time Collaboration:** Multiple users can edit the same document at the same time.
+- **Rich Text Editing:** Advanced text formatting and editing capabilities.
+- **Conflict Resolution:** Smooth editing experience without conflicts.
 
-* System dependencies
+## Demo Video
 
-* Configuration
+Watch the demo video to see the editor in action: [demo_video.mov](./demo_video.mov)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To run the demo locally, follow these steps:
 
-* How to run the test suite
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. **Install dependencies:**
+    ```bash
+    bundle install
+    yarn install
+    ```
+3. **Run the Rails server:**
+    ```bash
+    /bin/dev
+    ```
+4. **Open your browser and navigate to:**
+    `http://localhost:3000`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies Used
+    - Y.js: A CRDT implementation for real-time collaboration.
+    - Tiptap: A headless, framework-agnostic text editor built on ProseMirror.
+    - Rails Action Cable: Integrates WebSockets for real-time updates and communication.
+    - Mantine: A modern React component library for building responsive and accessible web applications.
