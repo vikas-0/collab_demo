@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import '@mantine/core/styles.css';
 import '@mantine/tiptap/styles.css';
+import './App.css'
 
 import { RichTextEditor, Link } from '@mantine/tiptap';
 import { useEditor } from '@tiptap/react';
@@ -112,7 +113,7 @@ function Demo() {
                     </RichTextEditor.ControlsGroup>
                 </RichTextEditor.Toolbar>
 
-                <RichTextEditor.Content style={{marginTop: '50px'}} />
+                <RichTextEditor.Content style={{ marginTop: '50px' }} />
             </RichTextEditor>
         </Box>
     );
