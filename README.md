@@ -10,7 +10,7 @@ This is a simple demo of a real-time collaborative editor using Y.js, Tiptap, an
 
 ## Demo Video
 
-Watch the demo video to see the editor in action: [demo_video.mov](./demo_video.mov)
+Watch the demo video to see the editor in action: ![demo_video.mov](https://github.com/vikas-0/collab_demo/raw/main/demo_video.mov)
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ To run the demo locally, follow these steps:
     `http://localhost:3000`
 
 ## Technologies Used
-    - Y.js: A CRDT implementation for real-time collaboration.
-    - Tiptap: A headless, framework-agnostic text editor built on ProseMirror.
-    - Rails Action Cable: Integrates WebSockets for real-time updates and communication.
-    - Mantine: A modern React component library for building responsive and accessible web applications.
+- Y.js: A CRDT implementation for real-time collaboration.
+- Tiptap: A headless, framework-agnostic text editor built on ProseMirror.
+- Rails Action Cable: Integrates WebSockets for real-time updates and communication.
+- Mantine: A modern React component library for building responsive and accessible web applications.
