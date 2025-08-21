@@ -21,7 +21,7 @@
     "@tiptap/react": "^2.4.0",
     "@tiptap/starter-kit": "^2.4.0",
     "@y-rb/actioncable": "^0.2.1",
-    "esbuild": "^0.21.5",
+    "esbuild": "^0.25.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "y-prosemirror": "^1.2.9",
